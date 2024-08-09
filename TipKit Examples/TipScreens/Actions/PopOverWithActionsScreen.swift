@@ -17,7 +17,7 @@ struct PopOverWithActionsScreen: View {
         }
         .navigationTitle("Simple Popover Tip")
         .toolbar {
-            ToolbarItem(placement: .topBarTrailing, content: {
+            ToolbarItem(placement: .navigation, content: {
                 Button(action: {
                     favorited.toggle()
                 }) {

@@ -32,7 +32,7 @@ struct ColoredTipScreen: View {
         .padding(12)
         .navigationTitle(backgroundColored ? "Background Colored Tip" : "Colored Tip")
         .toolbar {
-            ToolbarItem(placement: .topBarTrailing, content: {
+            ToolbarItem(placement: .navigation, content: {
                 Button(action: {
                     
                 }) {

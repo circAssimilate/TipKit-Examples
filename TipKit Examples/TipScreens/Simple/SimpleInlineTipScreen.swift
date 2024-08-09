@@ -27,7 +27,7 @@ struct SimpleInlineTipScreen: View {
             
             TipView(SimpleInlineTip())
         }
-        .animation(.spring())
+        .animation(.spring(), value: "")
         .padding(12)
         .navigationTitle("Simple Inline Tip")
     }
