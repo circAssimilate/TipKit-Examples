@@ -25,7 +25,7 @@ struct SimpleInlineTipScreen: View {
                 .frame(height: 100)
                 .cornerRadius(8)
             
-            TipView(SimpleInlineTip())
+            TscTipView(SimpleInlineTip(), analyticsName: "SimpleInlineTip")
         }
         .animation(.spring(), value: "")
         .padding(12)

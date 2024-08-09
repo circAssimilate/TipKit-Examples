@@ -14,7 +14,7 @@ struct SimpleRuleTipScreen: View {
     var body: some View {
         List {
             
-            TipView(SimpleRuleTip())
+            TscTipView(SimpleRuleTip(), analyticsName: "SimpleRuleTip")
             
             Section {
                 Text("This screen shows a tip only when a certain event has happened. The event is triggered by tapping the button below.")

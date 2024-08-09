@@ -12,13 +12,13 @@ struct CornerRadiusTipScreen: View {
     
     var body: some View {
         VStack {
-            TipView(CornerRadiusTip())
+            TscTipView(CornerRadiusTip(), analyticsName: "CornerRadiusTip")
                 .tipCornerRadius(4)
             
-            TipView(CornerRadiusTip())
+            TscTipView(CornerRadiusTip(), analyticsName: "CornerRadiusTip")
                 .tipCornerRadius(20)
             
-            TipView(CornerRadiusTip())
+            TscTipView(CornerRadiusTip(), analyticsName: "CornerRadiusTip")
                 .tipCornerRadius(40)
             
             Text("This tip shows how you can customise the corner radius for your TipViews.")
