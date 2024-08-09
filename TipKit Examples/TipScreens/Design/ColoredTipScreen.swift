@@ -19,11 +19,11 @@ struct ColoredTipScreen: View {
     var body: some View {
         VStack {
             if backgroundColored {
-                TipView(BackgroundColoredTip())
+                TscTipView(BackgroundColoredTip(), analyticsName: "BackgroundColoredTip")
                     .tipBackground(.blue)
                 Text("This screen shows a tip with a background color and differently styled text so you can create tips that match your apps aesthetic.")
             } else {
-                TipView(ColoredTip())
+                TscTipView(ColoredTip(), analyticsName: "ColoredTip")
                 Text("This screen shows a tips with styled / colored titles.")
             }
                 

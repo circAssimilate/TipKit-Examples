@@ -11,7 +11,7 @@ import TipKit
 struct DualRuleTipScreen: View {
     var body: some View {
         List {
-            TipView(DualRuleTip())
+            TscTipView(DualRuleTip(), analyticsName: "DualRuleTip")
             
             Section {
                 Text("This screen shows a tip only when a certain event has happened. The event is triggered by tapping the button below.")

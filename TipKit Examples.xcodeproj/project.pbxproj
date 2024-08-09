@@ -27,6 +27,7 @@
 		C2D2A4482A32260E0032F7E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2A4472A32260E0032F7E7 /* ContentView.swift */; };
 		C2D2A44A2A32260F0032F7E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D2A4492A32260F0032F7E7 /* Assets.xcassets */; };
 		C2D2A44E2A32260F0032F7E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D2A44D2A32260F0032F7E7 /* Preview Assets.xcassets */; };
+		CC4F30202C66850D00C6ACE3 /* TipKit+TSC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4F301F2C66850D00C6ACE3 /* TipKit+TSC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		C2D2A4492A32260F0032F7E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2D2A44B2A32260F0032F7E7 /* TipKit_Examples.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TipKit_Examples.entitlements; sourceTree = "<group>"; };
 		C2D2A44D2A32260F0032F7E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC4F301F2C66850D00C6ACE3 /* TipKit+TSC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TipKit+TSC.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 			children = (
 				C2D2A4432A32260E0032F7E7 /* TipKit_ExamplesApp.swift */,
 				C2D2A4472A32260E0032F7E7 /* ContentView.swift */,
+				CC4F301F2C66850D00C6ACE3 /* TipKit+TSC.swift */,
 				C2BD50AB2A73DFF300583432 /* Tips */,
 				C2BD50AA2A73DFED00583432 /* TipScreens */,
 				C2D2A4492A32260F0032F7E7 /* Assets.xcassets */,
